@@ -1,865 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <meta charset="utf-8">
+    <title>INES - Instituto Nacional de Ecologia Sustentável</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <title>Programa Metano Zero - Instituto Nacional de Ecologia Sustetável (INES)</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- fonts awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libs -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="contact_nav_container">
+    <!-- Loading -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    
+    <!-- LOGO HEADER -->
+    <div id="inicio" class="logo">
         <div class="container">
-          <div class="contact_nav">
-            <a href="">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
-                E-mail: demo@gmail.com
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Telefone: (61) 3334-4444
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
-          <span>
-            
-          </span>
-          <a class="navbar-brand p-2" href="index">
-            <span>
-              <img src="images/logo2.jpg" width="350px" class="img-fluid" />
-            </span>
-          </a>
-          <div class="custom_menu-btn">
-            <button onclick="openNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-          </div>
-          <div id="myNav" class="overlay">
-            <div class="menu_btn-style ">
-              <button onclick="closeNav()">
-                <span class="s-1"> </span>
-                <span class="s-2"> </span>
-                <span class="s-3"> </span>
-              </button>
-            </div>
-            <div class="overlay-content">
-              <a href="index">Início</a>
-              <a href="quem-somos">Quem Somos</a>
-              <a href="nossa-visao">Nossa Visão </a>
-              <a href="nossa-missao">Nossa Missão</a>
-              <a class="active" href="metano-zero">Programa Metano Zero</a>
-              <a href="#contato">Contato</a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-  <!-- contact section -->
-
-
-
-  <section class="contact_section pb-5">
-    <div class="container">
-
-      <style>
-        .image-container {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .image-container:hover .overlay-img {
-            display: block;
-        }
-        
-        .overlay-img {
-            display: none;
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            background-color: rgba(0, 0, 0, 0.7);
-            color: white;
-            width: 250px;
-            height: 80px;
-            transition: opacity 0.3s;
-        }
-    </style>
-
-      <div id="imagem" class="row">
-        <div class="col d-flex justify-content-center align-items-center"> 
-          <a href="?indice=0#resumo"> 
-            <div class="image-container">
-              <img src="images/ch4/01.png" class="rounded img-thumbnail img-fluid" width="700px">
-              <div class="overlay-img p-3">
-                (clique na imagem para visualizar o conteúdo)
-              </div>
-              <p class="font-weight-bold text-center mt-2">(clique na imagem para visualizar o conteúdo)</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div id="resumo" class="container" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <img class="card-img-top" src="images/ch4/02.png" alt="Card image cap">
-              <div class="col-md-8 offset-md-2 text-center mt-4">
-                <h2>Responsabilidade social dos pecuaristas e empresas do setor no Brasil "Amigos do Planeta"</h2>
-              </div>
-              <h4 class="card-title pl-4 pt-4">Resumo</h4>
-              <div class="card-body d-flex flex-wrap"> 
-                <div class="col-md-6">
-                  <div>
-                    <p class="card-text text-justify">
-                      O presente documento põe à vista as premissas gerais que embasam a proposta de criação de um instrumento de validação de uma política de responsabilidade social e ambiental no combate à emissão do gás de metano do setor pecuarista.
-                      <br>
-                      <br>
-                      Este instrumento, um selo certificador, pretende atingir o objetivo de contribuir com o programa "METANO ZERO" do Ministério do Meio Ambiente (MMA) visando a diminuição da emissão do gás de metano na atmosfera, contribuindo para impedir o aumento da temperatura do planeta e ensejar a noção de responsabilidade social e ambiental nas relações entre o nosso pais e os mais de 100 países, signatários da criação do primeiro mercado global de metano com o objetivo de reduzir as emissões do potente gás de efeito estufa metano em 30% até 2030.
-                      <br><br>
-                    </p>
-                  </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <a href="index.html" target="_blank"><img src="img/logo.png" class="img-fluid" width="700px"></a>
                 </div>
-                <div class="col-md-6">
-                  <div>
-                    <p class="card-text text-justify">
-                      O metano tem um potencial de retenção de calor maior do que o CO2, mas se decompõe na atmosfera mais rapidamente, o que significa que a redução das emissões de metano pode ter um impacto rápido no controle do aquecimento global.
-                    <br>
-                    <div class="col d-flex justify-content-center align-items-center">
-                      <div>
-                          <img src="images/ch4/03.png" class="img-fluid" width="260px">
-                      </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div id="navbar-nav" class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="inicio#inicio" class="nav-item nav-link scrollto">Início</a>
+                <a href="inicio#sobre-nos" class="nav-item nav-link scrollto">Sobre Nós</a>
+                <a href="inicio#visao-missao" class="nav-item nav-link scrollto">Visão e Missão</a>
+                <a href="inicio#projetos" class="nav-item nav-link scrollto">Projetos</a>
+                <a href="inicio#contato" class="nav-item nav-link scrollto">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO PROGRAMA METANO ZERO -->
+    <div id="sobre-nos" class="container-xxl py-4">
+        
+        <!-- BREADCRUMB -->
+        <div class="container mb-4 d-flex justify-content-between" data-parallax="scroll">
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="inicio">Início</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Sobre nós</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <style>
+            /* Estilos personalizados para tornar o PDF responsivo */
+            .pdf-container {
+                position: relative;
+                width: 100%;
+                padding-bottom: 100%; /* Mantém a proporção 1:1 */
+            }
+            .pdf {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="pdf-container">
+                        <embed class="pdf" src="docs/metano-zero_compressed.pdf" type="application/pdf">
                     </div>
-                  </p>
-                  </div>
                 </div>
-              </div>
-              
-            <div class="d-flex justify-content-end p-4">
-              <a href="#indice-0">
-                <h6 style="font-weight: bold;">Índice >></h6>
-              </a>
             </div>
-            </div>
-          </div>
         </div>
-      </div>
-
-      <div id="indice-0" class="container mt-5" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-body d-flex flex-wrap">
-                <div class="col-md-12">
-                  <div>
-                    <h4 class="card-title mb-3">Índice</h4>
-                    <ul class="list-group">
-                      <a href="?indice=1#indice-1" class="list-group-item list-group-item-action">I.	O que é responsabilidade social</a>
-                      <a href="?indice=2#indice-2" class="list-group-item list-group-item-action">II.	Programa Metano Zero</a>
-                      <a href="?indice=3#indice-3" class="list-group-item list-group-item-action">III.	Selo CH4 Zero</a>
-                      <a href="?indice=4#indice-4" class="list-group-item list-group-item-action">IV.	Razões para você aderir a este movimento!</a>
-                      <a href="?indice=completo" class="list-group-item list-group-item-action">V. Visualizar conteúdo completo</a>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="indice-1" class="container" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card mt-5">
-              <h4 class="card-title pl-4 pt-4">I. O que é responsabilidade social</h4>
-
-              <div class="card-body d-flex flex-wrap">
-  
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      <i>"A construção de um mundo melhor para todos passa, necessariamente, pelo efetivo engajamento do setor pecuarista na busca de soluções que possam resolver as crescentes demandas da sociedade."
-                      <br><br>
-                      "Ao gerir seus negócios de forma ética e assumir compromissos públicos, práticos e efetivos com a sustentabilidade social e ambiental do planeta, os pecuaristas e empresários do setor estarão contribuindo de forma mais consistente para o progresso econômico, justiça social e proteção ambiental em nível global."</i>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/05.png" class="img-fluid" width="370px">
-                        </div>
-                      </div>
-                      <br>
-                      timologicamente a palavra responsabilidade deriva do latim respondere, ou responder. Segundo o dicionário Michaelis, responsabilidade é "a qualidade de responsável", que "responde por atos próprios ou de outrem", que "deve satisfazer os seus compromissos ou de outrem".
-                      <br><br>
-                      A concepção de Responsabilidade Social possui uma longa e variada história. Na literatura original sobre Responsabilidade Social Corporativa, as primeiras referências apareceram principalmente nos Estados Unidose também na Europa nas primeiras décadas de 1900. Os trabalhos consistiam em apresentar a Importância das empresas em oferecer bens e serviços necessários ao bem estar da sociedade. As mais avançadas considerações da época apenas sugeriam basicamente que a administração das empresas fossem guiadas pela noção geral de serviço à sociedade.
-                      <br><br>
-                      Nos anos 50 Iniciou-se a construção de um conceito de responsabilidade social. À partir de uma pesquisa sobre Responsabilidade Social, realizada com empresários pela revista Fortune, o norte-americano Howard R. Bowen publicou, em 1955, a obra "Responsabilidades Sociais de Homens de Negócios", onde a principal questão referia-se às responsabilidades que os homens de negócios (diretores e administradores de grandes empresas) deveriam assumir perante a sociedade. 93,5% dos executivos entrevistados concordaram que deveriam assumir responsabilidades pelas consequências de suas ações.
-                      <br><br>
-                      Nos anos 60 o conceito se expandiu e encontramos muitos autores se interessando mais profundamente sobre o assunto responsabilidade empresarial, atribuindo às empresas responsabilidade de afetarem amplos interesses na totalidade do sistema social, além dos próprios interesses técnicos e econômicos.
-                      <br><br>
-                      Nas décadas seguintes aumentaram as pesquisas direcionadas à responsabilidade soci al das empresas; o conceito se expandiu ainda mais, indo muito além da execução de ações simples ou até mesmo complexas.
-                      <br><br>
-                      Pode-se dizer, atualmente, que responsabilidade social refere-se a uma postura estratégica que uma empresa assume diante de vários aspectos: valores éticos e relacionamento com funcionários, fornecedores, clientes consumidores, comunidade vizinha, governo e sociedade em geral, além das práticas adotadas em relação ao meio-ambiente.
-                      <br><br>
-                      Responsabilidade social pode ser entendida como o conjunto de obrigações inerentes à evolução de um estado ou condição, que procede da convicção social de que não segui-la constitui uma transgressão da norma da cultura.
-                      <br><br>
-                      Uma análise mais aprofundada sobre o conteúdo dessa definição leva ao entendimento de que a intima convicção social que determina uma norma ou conjunto de obrigações pertence ao campo da ética, ou seja, dos valores morais & princípios ideais de conduta humana. Assim sendo, responsabilidade social é um processo resultante do desenvolvimento de posturas éticas inerentes aos estágios de evolução de determinados grupos ou organismos sociais.
-                      <br><br>
-                      Quando se fala especificamente da responsabilidade social das empresas, entrecruzando-se com o conceito de ética, vamos encontrar o conceito de cidadania empresarial, na medida em que, ao integrar o contexto no qual estão inseridas, as contexto no qual estão inseridas, as instituições precisam conjugar o seu aspecto privado com a preocupação voltada ao público. Ou seja, embora uma organização possa pertencer ao poder privado, ela deve responsabilidade e satisfação pública.
-                      <br><br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/06.png" class="img-fluid" width="400px">
-                        </div>
-                      </div>
-                      <br>
-                      O conceito de cidadania empresarial, empregado por vezes como sinônimo de responsabilidade social da empresa, está ligado ao fato de que, dentro da sociedade o setor empresarial detém maior acervo de recursos potencialmente mobilizáveis. Às empresas podem relacionar-se com a sociedade assumindo diferentes posturas.
-                      <br><br>
-                      A empresa-cidadã seria aquela que adota a posição proativa de querer contribuir para encaminhar soluções para os problemas sociais, ou, em outras palavras, aquela que ativamente contribui para a melhoria da qualidade de vida de toda a sociedade.
-                      Pode-se dizer, em suma, que um conceito apropriado de responsabilidade social inclui as seguintes considerações:
-                      <br>
-                      <ul class="list-group" style="border: none;">
-                        <li class="list-group-item" style="border: none;">a)	Trata-se de um processo relacionado a questões específicas de tempo e espaço, de evolução de pensamento e de práticas relacionadas a situações circunscritas aos sistemas econômicos e políticos vigentes em determinados países e suas organizações.</li>
-                        <li class="list-group-item" style="border: none;">b)	Trata-se de um processo dinâmico, visto que reflete o próprio meio social, no qual se entrecruzam diversos fatores de ordem econômica, política e cultural.</li>
-                        <li class="list-group-item" style="border: none;">c)	Trata-se de um processo que envolve os diversos segmentos da sociedade, cidadãos, consumidores, organizações públicas ou privadas e comunidades.</li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      De acordo com o conceito apresentado, a responsabilidade social não se restringe à atuação de um determinado segmento da sociedade. No que diz respeito às organizações, a responsabilidade social se aplica às organizações do Primeiro Setor (públicas), Segundo Setor (privadas) e Terceiro Setor (da sociedade civil de interesse público).
-                                            
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/08.png" class="img-fluid" width="400px">
-                        </div>
-                      </div>
-                      <br>
-                      
-                      A atuação das organizações privadas (Segundo setor), que é o foco dessa revisão no tocante à responsabilidade social com a preservação do clima do planeta, é diretamente derivada da conscientização dos pecuaristas e empresas do setor e quanto à necessidade de dedicar capital e recursos ac combate da diminuição do gás de metano na camada de ozônio, voltadas a oferecer apoio de interesse comunitário e social.
-                      <br><br>
-                      A evolução do ambiente social com suas variáveis conduziu à percepção, no âmbito da administração das empresas privadas, de que muita coisa existente dentro das organizações era decorrente do que existia tora delas, nos seus ambientes. Às organizações escolhem seus ambientes, passam a ser condicionadas por eles, necessitando adaptar-se aos mesmos para poderem sobreviver e crescer. Neste sentido, o conhecimento do ambiente é vital para a compreensão dos mecanismos organizacionais.
-                      <br><br>
-                      As transformações econômicas, políticas e culturais da atualidade tornam-se, então, determinantes das novas posturas empresariais, conduzindo as organizações, por exemplo, à busca de objetivos de longo prazo e à percepção de que qualidade, preço competitivo e bons serviços não representam mais os únicos diferenciais no mercado. Consumidores melhor informados e exigentes quanto a produtos e serviços tornam-se cidadãos mais conscientes das necessidades de suas comunidades, os quais passam a reivindicar o cumprimento das responsabilidades das empresas para o seu desenvolvimento.
-                      <br><br>
-                      O apoio da sociedade através do financiamento de projetos sustentáveis na luta do combate às questões climáticas, por exemplo, passa a fazer parte da dinâmica de empresas cidadãs ou socialmente responsáveis.
-                      Muitas empresas brasileiras do setor pecuarista tem incorporado atitudes cidadãs através da prática a conscientização ambiental. Tal prática consiste na administração inteligente da participação da empresa, através de Investimentos na área de pesquisa científica para a diminuição da emissão do gás de metano na atmosfera, o que compreende a análise, escolha e determinação de uma causa que tenha, preferencialmente, relação com o negócio da empresa.
-                      <br><br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/09.png" class="img-fluid" width="400px">
-                        </div>
-                      </div>
-                      <br>
-                      Nesse caso, ao invés de praticar uma política de doações, a empresa investe em projetos ambientalmente sustentáveis, o que tende a agregar valor à sua marca, despertando a associação positiva entre seu nome e a ação socialmente responsável, conquistando credibilidade por parte de consumidores, fornecedores, clientes e potenciais.
-                      <br><br>                      
-                      Tal modelo de responsabilidade social e ambiental concretiza o conceito de cidadania empresarial. Apesar do quadro promissor, os números resultantes de uma avaliação sobre os Investimentos em projetos sustentáveis como a luta pela preservação do clima, por parte das organizações privadas, apontam para um enorme espaço a ser preenchido por atitudes empresariais cidadãs.
-                      <br><br>
-                      Dados revelam, ademais, que a tendência de aplicação da conscientização ambiental no meio empresarial pecuarista ainda é tímida e se restringe às empresas de grande porte como é o caso da JBS. Mesmo as maiores empresas que desenvolvem esse tipo de ação, investem montantes pouco expressivos para os padrões Internacionais, e o fazem de forma assistemática, sem uma boa estratégia definida.
-                      A literatura especializada mostra que o conceito de responsabilidade social e ambiental estão se ampliando, indo além da relação socialmente compromissada da empresa com a sociedade, para abarcar todas as relações que a empresa estabelece: com seus funcionários, clientes, fornecedores, acionistas, concorrentes, meio ambiente e organizações públicas e estatais.
-                      <br><br>
-                      As ações de conscientização ambiental correspondem à dimensão inicial do exercício da responsabilidade social e tem como característica principal a benevolência do empresário. Uma segunda dimensão do exercício da responsabilidade social refere-se às ações sociais com a sociedade mundial, e, nesse caso, a empresa socialmente responsável coloca a serviço da sociedade recursos financeiros, produtos, serviços até mesmo o trabalho (muitas vezes voluntário) dos seus funcionários.
-                      <br><br>
-                      A empresa desenvolve suas ações sociais, nesse caso, apoiada em princípios e valores éticos e reforça as suas relações.
-                      <br><br>
-                      Enquanto muitas empresas ainda se encontram no nível da responsabilidade ambiental, outras no mundo já desenvolvem ações com a sociedade. Estas últimas, Impulsionadas pela ampliação do conceito de responsabilidade ambiental e social, demonstram uma percepção apropriada de fatores como as enormes carências na luta à favor do clima, e com isso a preservação do planeta para as futuras gerações, crescente grau de organização da sociedade e especialmente do Terceiro Setor, a ação social dos concorrentes, a divulgação crescente dos meios de comunicação sobre as ações ambientais das empresas e o crescimento das expectativas das comunidades e dos funcionários sobre o engajamento social empresarial. Mais do que isso, tais empresas demonstram uma compreensão do seu papel para a promoção de uma sociedade melhor para todos.
-                      <br><br>
-                      Em suma, responsabilidade social pode ser definida como o somatório de atitudes assumidas por agentes sociais, quais sejam, cidadãos, organizações públicas e privadas, direcionadas à ciência do dever humano e voltadas para o desenvolvimento sustentável da sociedade.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="d-flex justify-content-end p-4">
-                <a href="?indice=2#indice-2">
-                  <h6 style="font-weight: bold;">II. Programa Metano Zero >></h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="indice-2" class="container" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card mt-5">
-              <img class="card-img-top" src="images/ch4/07.png" alt="Card image cap">
-              <h4 class="card-title pl-4 pt-4">II. Programa METANO ZERO</h4>
-
-              <div class="card-body d-flex flex-wrap">
-
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      
-
-                      <b>Compromisso Global sobre Metano</b>
-                      <br><br>
-                      Durante a 26º Conferência das Partes (COP 26) da Convenção Quadro das Nações Unidas sobre
-                      Mudança do Clima (UNFCCC), realizada em novembro de 2021, o Governo Federal aderiu, junto com mais de 100 países, ao esforço global para reduzir em 30% as emissões de metano até 2030 em relação aos níveis de 2020. Trata-se de uma grande oportunidade para o Brasil, no contexto de uma nova economia verde global.
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/20.png" class="img-fluid" width="340px">
-                        </div>
-                      </div>
-                      <br>
-
-                      <b>Marco de Resíduos Sólidos (Decreto 10.936/2022)</b>
-                      <br><br>
-                      O novo Marco Legal de Resíduos Sólidos, criado por meio do Decreto 10.936 de janeiro de 2022, regulamenta a Lei nº 12.305, de 2 de agosto de 2010, que, por sua vez, institui a Política Nacional de Resíduos Sólidos. Esse novo Marco confere maior clareza e segurança jurídica, determina responsabilidades, simplifica e desburocratiza a criação de planos e acordos setoriais, incentiva o desenvolvimento técnico-científico, a inovação e o empreendedorismo do setor para atrair novos investimentos privados. Nesse contexto, novos projetos serão implementados de maneira mais rápida, e a redução de emissões de metano resultantes se transformará em benefício econômico para quem empreende, com impacto ambiental positivo não somente para toda a sociedade brasileira, mas também para a proteção do sistema climático global. No Brasil uma das principais fontes de emissão de metano são resíduos orgânicos urbanos e agrícolas. O novo marco de resíduos sólidos vem se agregar a arcabouço Institucional relevante que envolve, entre outros instrumentos, a própria Política Nacional de Resíduos Sólidos e o Marco do Saneamento (Lai n. 14.026/2020).
-                      <br><br>
-                      <b>Biometano: definição, usos e fornecedores</b>
-                      <br><br>
-                      Biometano é o gás proveniente do tratamento do biogás que, por sua vez, é gerado pela decomposição biológica de matéria orgânica (produtos ou resíduos orgânicos). Trata-se de biocombustível gasoso constituído essencialmente de metano. Essa fonte renovável pode ter várias aplicações, como geração elétrica, uso veicular (o gás natural veicular - GNV provém do gás natural ou do biometano, ou da mistura de ambos) e injeção nas malhas de gás natural. Cabe mencionar a oportunidade criada no contexto do Novo Mercado de Gás.
-                      <br><br>
-                      A produção e uso do biogás pode servir para aumentar a oferta de gás natural, bem como para diminuir sua pegada de carbono, evidenciando uma sinergia positiva entre o combustível fóssil e o renovável, no processo de transição energética. No Brasil, o maior potencial de biogás e biometano vem dos resíduos sólidos urbanos, agrícolas e efluentes (esgotos). Destacam-se, ainda, os biofertilizantes como coprodutos, cabendo citar a importância da produção de biogás utilizando biodigestores, polis reduz-se o envio de componentes para aterros ou lixões, ou disposição na natureza e ainda é gerado o digestato, um rico biofertilizante.
-                      <br><br>
-                      <b>Programa Metano Zero</b>
-                      <br><br>
-                      Assim nasceram as bases para desenvolvemos um Programa Nacional de Redução de Metano de Resíduos Orgânicos Metano Zero que representa enorme oportunidade econômica e estratégica, reduzindo emissões de gases de efeito estufa, custos de combustível e energia e transformando os produtores rurais e gestores de aterros sanitários em fornecedores de combustível e energias limpas e renováveis, além do importante subproduto, os biofertilizantes com alto valor para a agricultura.
-                      <br><br>
-                      O foco de atuação está voltado para o aproveitamento energético e como combustível de resíduos ou produtos orgânicos como fontes de biogás e biometano. Destaque é dado aos resíduos sólidos urbanos e agrícolas, provenientes, por exemplo de: aterros sanitários, produção de cana-de-açúcar, suinocultura, criação de aves, indústria de laticínios, entre outros. Serão admitidas outras fontes e aplicações de biometano, as quais deverão atender aos critérios e procedimentos estabelecidos pelos órgãos competentes.
-                      <br><br>
-                      O Programa Metano Zero é uma iniciativa do Governo Federal, implementado com o envolvimento da sociedade brasileira (setor privado, sociedade civil e setor científico e de pesquisas). Promove a redução da emissão de metano em consonância com o desenvolvimento sustentável, com base na cooperação para o financiamento, incentivos, desoneração, capacitação, desenvolvimento, transferência e a difusão de tecnologias e de processos.
-                      <br><br>
-                      Destacam-se, entre outras, medidas de incentivo ao uso do biometano e biogás, que contribuirão para o crescimento verde: Linhas de crédito e financiamento específicas de agentes financeiros públicos e privados para o desenvolvimento de ações e atividades, incluindo, mas não se limitando a:
-
-                      <ul class="list-group" style="border: none;">
-                        <li class="list-group-item" style="border: none;">a)	implantação de biodigestores;</li>
-                        <li class="list-group-item" style="border: none;">b)	implantação de sistema de purificação de biogás, produção e compressão de biometano;</li>
-                        <li class="list-group-item" style="border: none;">c)	criação de pontos e corredores verdes para abastecimento de veículos pesados movidos a biometano, tais como ônibus, caminhões e implementos agrícolas, contribuindo para a redução de gases de efeito estufa e para a melhoria da qualidade do ar;</li>
-                        <li class="list-group-item" style="border: none;">d)	implantação de tecnologias que permitam a utilização de combustíveis sustentáveis e de baixa intensidade de emissões de gases de efeito estufa em motores de combustão interna de ciclo Otto ou diesel, atendidas as normas fixadas pelos órgãos competentes;</li>
-                        <li class="list-group-item" style="border: none;">e)	alavancagem da utilização ou desenvolvimento da tecnologia veicular;</li>
-                        <li class="list-group-item" style="border: none;">f)	desoneração tributária para infraestruturas relacionadas com projetos de biogás e biometano.</li>
-                      </ul>
-                      <br>
-                      <b>Oportunidades</b>
-                      <br><br>
-                      Por meio do programa, entre as grandes oportunidades ambientalmente estratégicas, fomentam-se pequenos e grandes projetos rurais e urbanos, permitindo que produtores rurais gestores de aterro se transformem em fornecedores de combustível e energias renováveis.
-                      O Brasil tem a explorar, de forma descentralizada e em volumes relevantes, uma espécie de Pré-Sal Verde, com capacidade estimada de aproveitar 120 milhões de m3 de biometano por dia, originada por completo de resíduos orgânicos, um volume maior que a produção diária de gás do Pré-Sal, ou 4 vezes maior que a capacidade do gasoduto Brasil-Bolívia.
-
-                      <br><br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/11.png" class="img-fluid" width="370px">
-                        </div>
-                      </div>
-                      <br>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      A oportunidade de aproveitar energicamente os resíduos se aplica em função da alta disponibilidade de resíduos orgânicos em todas as regiões brasileiras. Mais do que alcançar soluções apropriadas para a correta disposição de resíduos e do que buscar alternativas de seu aproveitamento como recurso energético, é uma chance de substituir combustíveis não-renováveis, contribuir para a redução de emissões e aumentar a eficiência de processos produtivos e os ganhos econômicos.
-                      <br><br>
-                      Além do ganho energético, a utilização desses substratos pode contribuir para uma melhor gestão ambiental das regiões produtoras destaca-se ainda o relevante benefício da substituição de combustíveis fósseis por uma fonte renovável de energia como o biometano para veículos pesados, caminhões, tratores e motores estacionários.
-                      <br><br>
-                      Destaca-se que a infraestrutura de escoamento e transporte de gás natural existente pode ser utilizada, com adaptações cu não, para o biometano.
-                      <br><br>
-                      Na prática, veremos, por exemplo, as seguintes situações:
-                      <br><br>
-                      No campo, o produtor pode utilizar na sua propriedade um resíduo que teria potencial de impacto negativo para o melo ambiente e transformá-lo em combustível, energia renovável e biofertilizante, gerando renda, economia operacional e uma importante melhora da qualidade ambiental.
-                      <br><br>
-                      Na cidade, os setores de resíduos e de mobilidade urbana podem atuar de forma integrada, um gerando biometano nos aterros e o outro substituindo o diesel nas frotas de ônibus e caminhões, garantindo assim mais qualidade do ar para regiões metropolitanas.
-                      <br><br>
-                      O Brasil, ao aderir ao Acordo Global do Metano e, agora, com a instituição do Programa Metano Zero, demonstra que irá explorar e promover a aderência a outras iniciativas relevantes, estejam elas em curso ou a serem iniciadas/fortalecidas, tais como:
-                      <br>
-                      <ul>
-                        <li>Contribuição Nacionalmente Determinada (NDC) ao Acordo de Paris;</li>
-                        <li>Diretrizes para uma Estratégia Nacional para Neutralidade Climática;</li>
-                        <li>Programa Nacional de Crescimento Verde;</li>
-                        <li>Programa Nacional Lixão Zero (responsável por erradicar 20% dos lixões no País e por mudanças regulatórias que possibilitaram a conversão do lixo em energia, inclusive para a inclusão da modalidade de "recuperação energética de resíduos sólidos urbanos");</li>
-                        <li>Plano Nacional de Adaptação à Mudança do Clima;</li>
-                        <li>Fundo Nacional sobre Mudança do Clima;</li>
-                        <li>Medidas e mecanismos econômicos destinados a estimular a redução das emissões de metano;</li>
-                        <li>Medidas existentes, ou a serem criadas, que estimulem o desenvolvimento de processos e de tecnologias que contribuam para a redução de emissões de metano;</li>
-                        <li>Mecanismo de mercado de carbono para promover mitigação de emissões inclusive por meio de créditos específicos de metano.</li>
-                      </ul>
-
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/12.png" class="img-fluid" width="400px">
-                        </div>
-                      </div>
-                      <br>
-
-                      <b>Créditos de Metano</b>
-                      <br><br>
-                      Com o Programa Metano Zero, pretende-se gerar receitas adicionais a projetos que promovam a redução de emissões desse gás de efeito estufa para a atmosfera.
-                      <br><br>
-                      O mercado de carbono pode acrescentar aos benefícios a serem atingidos pelo programa, créditos gerados pela redução das emissões de metano oriundas dos resíduos orgânicos, bem como pela emissão evitada de carbono com a substituição de combustíveis fósseis. Essas compensações adicionarão receita extra aos empreendimentos promotores das tecnologias que contribuam para o alcance desses resultados e que atualmente muitas vezes não encontram equilíbrio econômico, sendo que esses créditos podem fazer a diferença entre viabilizar ou não um projeto.
-                      <br><br>
-                      A utilização desse e de outros tipos de medidas e mecanismos econômicos trará Incentivos para ações de mitigação de emissões de metano.
-                      <br><br>
-                      O Programa também tem como objetivo o fomento e a consolidação dos mercados de créditos de carbono ao reconhecer e valorizar as atividades ambientais realizadas e Incentivadas para a mitigação das emissões de metano, inclusive com a geração de créditos específicos para esse gás de efeito estufa, resultando em retribuição monetária, atrelada às Iniciativas voltadas para esse objetivo. 
-                      <br><br>
-                      Os recursos monetários, e também os não monetários, provenientes de cooperação, financiamentos de bancos de desenvolvimento como BNDES e NDB, bem como do setor privado, serão fundamentais para a consolidação do Programa.
-                      
-                      <br><br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/13.png" class="img-fluid" width="370px">
-                        </div>
-                      </div>
-                      <br>
-                       
-                      Crescimento Verde
-                      O Programa Nacional Metano Zero contribuirá para o crescimento verde, em total alinhamento com o Programa Nacional de Crescimento Verde. Nesse sentido, o Governo Federal está estabelecendo a estrutura necessária de transformação institucional, passando por priorização de ações e incentivos econômicos que permitam ao País alavancar todas as Iniciativas ligadas à redução de metano de origem da matéria orgânica do campo e das cidades.
-                      O Programa Nacional Metano Zero é mais uma Iniciativa do Governo Federal que atua na direção de superar os desafios e gerar oportunidades de negócios e empregos verdes. Valorizando os resíduos orgânicos, as energias renováveis e combustíveis limpos, o mercado de carbono e principalmente o setor privado, a inovação e o empreendedorismo têm tudo para fazer ainda mais pelo nosso melo ambiente.
-                      O Brasil é um grande fornecedor de soluções climáticas, por suas características impares e por ser uma potência econômica geradora de renda e empregos verdes que está consolidando a transição em curso do País para uma economia de baixo carbono. Pautada pelo rigor à legislação ambiental, a agenda ambiental do Governo Federal não se resume ao caráter meramente punitivo, mas procura também incentivar negócios verdes por todo o território nacional.
-  
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="d-flex justify-content-between p-4">
-                <a href="?indice=1#indice-1">
-                  <h6 style="font-weight: bold;"><< I. O que é responsabilidade social</h6>
-                </a>
-                <a href="?indice=3#indice-3">
-                  <h6 style="font-weight: bold;">III. SELO CH4 ZERO >></h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="indice-3" class="container" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card mt-5">
-              <img class="card-img-top" src="images/ch4/16.png" alt="Card image cap">
-              <h4 class="card-title pl-4 pt-4">III. SELO CH4 ZERO</h4>
-              <div class="card-body d-flex flex-wrap">
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/14.png" class="img-fluid" width="260px">
-                        </div>
-                      </div>
-                      A CH4 CARBON reconhece que o agronegócio no Brasil tem se mostrado um dos segmentos econômicos de maior evolução e capacidade de gerar riquezas e reduzir as disparidades sociais.
-                      <br><br>
-                      Hoje, a cadeia produtiva é responsável por mais que a metade das exportações e por cerca de 26% do produto Interno Bruto brasileiro (PIB).
-                      <br><br>
-                      O superávit do setor vem sendo superior do que o da própria balança comercial, que registrou US$ 50,9 bilhões em receita líquida, enquanto o agronegócio excedeu a marca de US$ 700 bilhões.
-                      <br><br>
-                      A atividade agrícola para exportação vem sendo um importante propulsor para o crescimento do produto Interno brasileiro. O agronegócio hoje é responsável por 52,2% de tudo exportado no Brasil.
-                      <br><br>
-                      A despeito das insuficiências de cunho econômico-comercial, ainda pendentes de equacionamento, o Brasil juntamente com outros mais de 100 países, aderiu a criação do primeiro mercado de crédito de metano global, tendo em comum, a crescente atenção conferida ao aquecimento global. Tanto os Estados unidos, a União Europeia quanto o Brasil vêm tentando mudar o enfoque tradicional de suas políticas em relação às questões climáticas do mundo.
-                      <br><br>
-                      Hoje, por meio da criação do programa METANO ZERO e pelas políticas do atual Governo brasileiro, entende-se que o conceito de boa governança passa pelo reforço da cidadania, com o Estado cumprindo suas obrigações nas áreas ambientais. Nesse contexto, para o conjunto dos países envolvidos neste novo mercado de crédito de metano, ganha contornos especiais, pois constitui um programa de desenvolvimento voltado para as necessidades específicas da deficiência climática do planeta.
-                      <br><br>
-                      Para o Brasil, a criação do primeiro mercado de crédito de metano global oferece oportunidades de Investimentos nas áreas de pesquisas científicas na busca da diminuição do gás de metano na atmosfera.
-                      <br><br>
-                      A criação deste novo segmento de mercado é um conjunto de programas de desenvolvimento multisetorial dos líderes destes mais de 100 países signatários deste novo segmento de mercado, baseados numa visão de senso comum e numa convicção firme e partilhada de que todos têm a missão urgente de diminuir a emissão do gás de metano no planeta até 2030 e colocar os seus países, individual e coletivamente, na via do crescimento sustentável e do desenvolvimento e, ao mesmo tempo, de participarem ativamente na economia mundial.
-                      <br><br>
-                      Este novo mercado de ativo verde é baseado na determinação dos líderes dos países signatários de se livrarem a si próprios e o planeta dos males da poluição que tem gerado o superaquecimento e da recuperação do mundo em globalização.
-                      <br><br>
-                      Enquanto as emissões de dióxido de carbono (CO2) são amplamente responsabilizadas pelo aquecimento global, o metano é um gás de efeito estufa capaz de reter 86 vezes mais calor do que o CO2.
-                      <br><br>
-                      O gás metano (CH4) é emitido pelos bovinos devido à fermentação entérica que ocorre no processo digestivo dos animais, assim como o gás carbônico (CO2) e o óxido nitroso (N2O), são responsáveis pelo efeito estufa, que intensificado, gera o aquecimento global. Hoje, a pecuária tem emissões de gases superiores a todo o setor de transportes (carros, caminhões, trens, navios e aviões).
-                      <br><br>
-                      As emissões de gases acontecem devido à grande devastação que ocorre para abrir o espaço de pastagem, ao cultivo de grãos para alimentar as criações, aos gastos exorbitantes de água para manter essa produção, à emissão de metano pelos animais, entre outros fatores.
-                      <br><br>
-                      A pecuária e seus subprodutos são responsáveis por pelo menos 32 milhões de toneladas de dióxido de carbono (C02) por ano, ou 51% de todas as emissões de gases de efeito estufa em todo o mundo.
-                      <br><br>
-                      A CH4 CARBON compreende que o metano expelido nos gases dos ruminantes tem mais impacto na mudança climática do que se imagina.
-                      <br><br>
-                      Como já citado, o gás metano tem um potencial de aquecimento global 86 vezes superior ao do CO2 em um prazo de 20 anos.
-                      <br><br>
-                      As vacas produzem 150 bilhões de litros de metano por dia (250-500 litros por vaca diariamente, multiplicado por 1,5 bilhão de vacas no mundo).
-                      <br><br>
-                      A China importou, em janeiro de 2023, o equivalente a US$483,3 milhões e 98,9 mil toneladas de carne bovina do Brasil.
-                      <br><br>
-                      Os EUA importaram, em janeiro de 2023, o equivalente a US$ 56,3 milhões e 12,2 mil toneladas de carne bovina do Brasil.
-                      <br><br>
-                      Os Principais Destinos das Exportações de Carne Bovina do País são:
-                      <br><br>
-                      <b>1º China US$ 3,9 Bilhões</b>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center p-3">
-                        <div>
-                            <img src="images/ch4/china.png" class="img-fluid" width="300px">
-                        </div>
-                      </div>
-                      <br>
-                      <b>2º Hong Kong US$ 587 Milhões</b>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center p-3">
-                        <div>
-                            <img src="images/ch4/hongkong.png" class="img-fluid" width="300px">
-                        </div>
-                      </div>
-                      <br>
-                      <b>3º Chile US$ 563 Milhões</b>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center p-3">
-                        <div>
-                            <img src="images/ch4/chile.png" class="img-fluid" width="300px">
-                        </div>
-                      </div>
-                      <br>
-                      <b>4º Estados Unidos US$ 465 Milhões</b>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center p-3">
-                        <div>
-                            <img src="images/ch4/eua.png" class="img-fluid" width="300px">
-                        </div>
-                      </div>
-                      <br>
-                      <b>5º Egito US$ 271 Milhões</b>
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center p-3">
-                        <div>
-                            <img src="images/ch4/egito.png" class="img-fluid" width="300px">
-                        </div>
-                      </div>
-                      <br>
-                      O gado de pecuária é responsável por grande parte das emissões de metano no mundo, um dos gases que mais tem contribuído para o aquecimento global. Nos sistemas tradicionais de pecuária, a pasto, leva em média três anos para um boi atingir 18 arrobas, neste período, cada boi emite 250 litros de metano por dia.
-                      <br><br>
-                      O peso ideal para o boi entrar no confinamento é no mínimo, 360 kg, e no máximo 420 kg. Com essa pesagem, atingir a meta do confinamento, sendo 78 arrobas por animal em 90 dias, fica muito mais viável. Um boi de 500 kg vale hoje no Brasil R$ 4.642,70 considerando o preço da arroba no mercado físico atual (R$ 273,10 a arroba, que é igual a 15 kg).
-                      <br><br>
-                      A cada dia, no Brasil, mais de 88 milhões e vacas são abatidos, a JBS teve receita líquida de R$ 87 bilhões no 1º trimestre de 2023.
-                      O mundo entrou em um novo milênio caracterizado por uma revolução econômica. Esta revolução pode proporcionar o contexto e os meios para a recuperação e o rejuvenescimento do planeta.
-                      <br><br>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div>
-                    <p class="card-text text-justify">
-                      O peso ideal para o boi entrar no confinamento é no mínimo, 360 kg, e no máximo 420 kg. Com essa pesagem, atingir a meta do confinamento, sendo 78 arrobas por animal em 90 dias, fica muito mais viável. Um boi de 500 kg vale hoje no Brasil R$ 4.642,70 considerando o preço da arroba no mercado físico atual (R$ 273,10 a arroba, que é igual a 15 kg).
-                      <br><br>
-                      A cada dia, no Brasil, mais de 88 milhões e vacas são abatidos, a JBS teve receita líquida de R$ 87 bilhões no 1º trimestre de 2023.
-                      O mundo entrou em um novo milênio caracterizado por uma revolução econômica. Esta revolução pode proporcionar o contexto e os meios para a recuperação e o rejuvenescimento do planeta.
-                      <br><br>
-                      Embora a globalização tenha incrementado o custo da capacidade dos líderes mundiais de compreenderem a urgência que o mundo está enfrentando com as questões climáticas, nós defendemos e acreditamos na criação deste novo mercado de ativo verde, pois as vantagens de uma integração bem gerida apresentam as melhores perspectivas para a futura prosperidade econômica e a redução da camada de ozônio.
-                      <br><br>
-                      A atual revolução econômica tem sido, em parte, possível, graças aos avanços registrados na tecnologia da informação e comunicação (TIC) que reduziram os custos e Incrementaram o volume das comunicações em todo o planeta, abolindo as barreiras de tempo e espaço pré-existentes e afetando todas as áreas da vida social e econômica.
-                      <br><br>
-                      Muito embora não exista nenhum canto do mundo que se tenha escapado dos efeitos da globalização, as contribuições das várias regiões e nações registram acentuadas diferenças no combate ao clima e ao aumento da temperatura do planeta.
-                      <br><br>
-                      Os meios para inverter este cenário sombrio ainda não estão fora do nosso alcance.
-                      <br><br>
-                      Por conseguinte, o imperativo do desenvolvimento não só coloca um desafio a consciência moral, ele é, com efeito, o fundamento para a sustentabilidade e a preservação do planeta.
-                      <br><br>
-                      A nossa luta a favor do clima é um produto dos avanços científicos e tecnológicos, muitos dos quais são orientados para os mercados.
-                      <br><br>
-                      Porém, os governos, particularmente os do mundo desenvolvido, vêm desempenhando, em parceria com o setor privado, um importante papel na definição da sua forma, conteúdo e curso, com a fantástica visão para o novo mercado de crédito de metano no mundo.
-                      <br><br>
-                      O que é necessário, além do engajamento dos governos, os setores privados da agropecuária e outras instituições da sociedade civil, a favor de uma verdadeira integração de todas as nações na luta para a redução da emissão dos gases de metano na camada de ozônio.
-                      <br><br>
-                      É exatamente nesse ponto que se insere o ambicioso programa proposto pela CH4 CARBON, que consiste na criação de um Selo a ser atribuído aos pecuaristas e empresas deste segmento que exportam seus produtos para os EUA, UE, Ásia e o Oriente Médio.
-                      <br><br>
-                      O selo identifica pecuaristas e empresas brasileiras deste setor que têm como principio a luta na diminuição de gás de metano na camada de ozônio até 2030.
-                      <br><br>
-                      Os pecuaristas e as empresas do setor que mantêm relações comerciais com estes países, em consonância com as diretrizes deste programa, baseado na criação do primeiro mercado de crédito de metano, proposto na COP26, junto com o Observatório Internacional de Emissões de Metano (IMEO), que foi uma iniciativa focada em dados e ações do Programa das Nações Unidas para o Meio Ambiente (PNUMA), com o apoio da Comissão Europeia, para promover uma redução significativa das emissões de metano.
-                      <br><br>
-                      Os pecuaristas e as empresas brasileiras do segmento que exportam seus produtos para estes países, agora poderão, através da aquisição do Selo, contribuir com a melhoria das condições de vida da população através da compensação da diminuição da emissão do gás de metano. Esse contributo concretizar-se-á por meio da aquisição anual do nosso SELO.
-                      <br><br>
-                      O programa "METANO ZERO" desenvolvido pelo Ministério do Meio Ambiente (MMA), reconhece o estorço do setor agropecuário brasileiro em atender ao chamado das lideranças dos mais de 100 países que participaram da criação do primeiro mercado de crédito de metano, expresso e retificado na cúpula do 020 e também foi um ato exemplar de responsabilidade ambiental e social com a população mundial.
-                      <br><br>
- 
-                      É possivel vislumbrar uma ação ambiciosa para a diminuição da emissão do gás de metano por parte dos pecuaristas, a partir de um simbólico Investimento de cada empresário na aquisição do selo, para a contribuição anual do selo "CH4 ZERO".
-                      <br><br>
-                      Sugere-se que este selo tenha o título de "CH4 ZERO" em consonância com o programa "METANO ZERO" do Governo Federal e gerido pelo Instituto Nacional de Ecologia Sustentável - INES.
-                      <br><br>
-                      Resta, pois, fundamentar a associação da Ideologia contida no projeto "SELO CH4 ZERO", que conta com a contribuição dos pecuaristas e frigoríficos brasileiros no combate a diminuição do gás de metano, prevista na criação do selo aqui proposto.
-                      
-                      <br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/22.png" class="img-fluid" width="400px">
-                        </div>
-                      </div>
-                      <br>
-                       
-                      O projeto justifica a junção do governo federal e a campanha que visa chamar os pecuaristas brasileiros e empresários do setor que mantém negócios com os países mencionados anteriormente a assumir seu papel para com a melhoria das condições de vida do nosso planeta, com a diminuição da emissão do gás de metano, exercendo assim, uma conduta socialmente e ambientalmente responsável junto a população tocada direta ou indiretamente por suas ações ou negócios.
-                      <br><br>
-                      Transformar esta realidade não é uma obrigação exclusiva dos governos, visto que empresas nacionais exportadoras para estes países, dentro do conceito de cooperação e da solidariedade, devem assumir um papel de destaque na transformação da mudança do clima, assegurando a todos uma existência digna, baseada no senso de justiça humana.
-                      <br><br>
-                      É dentro destes princípios que se insere a criação do "SELO CH4 ZERO", que compreende a concepção de "EMPRESA AMIGA DO PLANETA", a ser atribuído aos pecuaristas e as empresas do setor que aderirem ao programa, concretizando o cumprimento de sua função social e ambiental, com as quais mantém suas exportações.
-                      <br><br>
-                      Esta proposta busca estimular novos valores junto aos pecuaristas brasileiros e as empresas do setor, visando o alcance de um novo patamar de compromisso social e ambiental com a questão climática.
-                      <br><br>
-                      Os pecuaristas brasileiros e os empresários do setor mantêm uma importante parceira na busca do bem-estar coletivo.
-                      Mudar a realidade, buscando o caminho da diminuição da emissão do gás de metano como contraponto à luta para diminuir à temperatura do planeta, e melhoria da qualidade de vida geral da humanidade, não são prerrogativas exclusivas do poder estatal, como já foi ressaltado: cabe a todos os atores: governo, iniciativa privada e cidadãos, dar seu contributo.
-                      <br><br>
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/17.png" class="img-fluid" width="130px">
-                        </div>
-                      </div>
-                  </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="d-flex justify-content-between p-4">
-                <a href="?indice=2#indice-2">
-                  <h6 style="font-weight: bold;"><< II. Programa METANO ZERO</h6>
-                </a>
-                <a href="?indice=4#indice-4">
-                  <h6 style="font-weight: bold;">IV. Razões para você aderir a este movimento! >></h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="indice-4" class="container" style="display:none">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card mt-5">
-              <img class="card-img-top" src="images/ch4/23.png" alt="Card image cap">
-              <h4 class="card-title pl-4 pt-4">IV. Razões para você aderir a este movimento!</h4>
-              <div class="card-body d-flex flex-wrap">
-                <div class="col-md-6 text-justify">
-                  <div>
-                    <p class="card-text text-justify">
-                      O Instituto Nacional de Ecologia Sustentável INES Lança o SELO CH4 ZERO" no Brasil. O "SELO CH4 ZERO" é uma ideia simples que transforma o nosso inacreditável poder coletivo como consumidores em uma força financeira para ajudar na diminuição da emissão do gás de metano na camada de ozônio.
-                      <br><br>
-                      Chá ZERO não é uma caridade. É um modelo de negócio designado para criar e sensibilizar a população para a sustentabilidade com uso de dinheiro do setor privado para a preservação do clima do planeta.
-                      <br><br>
-                      Consumidores, na hora de comprar carne para O consumo, ao escolher as que tenham o "SELO CH4 ZERO", sem nenhum custo a mais, estarão contribuindo com a diminuição da emissão do gás de metano no planeta.
-                      <br>
-                      <ul>
-                        <li>CH4 ZERO não é uma caridade.</li>
-                        <li>CH4 ZERO não é uma causa.</li>
-                        <li>CH4 ZERO não é uma teoria.</li>
-                      </ul>
-                      CH4 ZERO É uma simples ideia que transforma o incrível poder do consumo coletivo em uma força financeira que ajudará a controlar o clima do planeta com a diminuição da temperatura.
-                      <br><br>
-                      CH4 ZERO é o desejo que satisfaz a virtude.
-                      <br><br>
-                      Todas as vezes que o consumidor optar por comprar um produto com o "SELO CH4 ZERO", sem nenhum custo adicional, o "INES" vai doar uma porcentagem sobre a aquisição do selo para EMBRAPA (Empresa Brasileira de Pesquisa Agropecuária) e Instituições acadêmicas que estejam desenvolvendo pesquisas na busca da diminuição de gás de metano na camada de ozônio.
-                      <br><br>
-                      <ul>
-                        <li>Não se omita, tudo que você tem que fazer é ampliar suas escolhas.</li>
-                        <li>Participe, faça sua parte adquirindo os produtos com o "SELO CH4 ZERO".</li>
-                        <li>O PLANETA TERRA NÃO TEM "PLANO B"!</li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div>
-                    <p class="card-text text-justify">
-                      <div class="col d-flex justify-content-center align-items-center">
-                        <div>
-                            <img src="images/ch4/18.png" class="img-fluid" width="340px">
-                        </div>
-                      </div>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="d-flex justify-content-start p-4">
-                <a href="?indice=3#indice-3">
-                  <h6 style="font-weight: bold;"><< III. SELO CH4 ZERO</h6>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  <!-- end contact section -->
-
-  <!-- info section -->
-
-  <section class="info_section layout_padding2 mb">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="info_contact">
-            <h5>
-              Contato
-            </h5>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Localização
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Telefone (61) 33333-3333
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
+    <!-- FOOTER -->
+    <div class="container-fluid bg-dark text-light footer py-2 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-4">Informações</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Localização, Brasília, DF, Brasil</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>Telefone: (61) 30303-3333</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>inesinstituto@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-4">Navegação</h4>
+                    <a class="btn btn-link" href="inicio#inicio">Início</a>
+                    <a class="btn btn-link" href="inicio#sobre-nos">Sobre nós</a>
+                    <a class="btn btn-link" href="inicio#missao-visao">Missão e visão</a>
+                    <a class="btn btn-link" href="inicio#projetos">Projetos</a>
+                    <a class="btn btn-link" href="inicio#contato">Contato</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4 class="text-white mb-4">Nosso projetos</h4>
+                    <a class="btn btn-link" href="metano-zero">Programa Metano Zero</a>
+                </div>
             </div>
-          </div>
-          <div class="info_social">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="info_link_box">
-            <h5>
-              Navegação
-            </h5>
-            <div class="info_links">
-              <a href="index"> <i class="fa fa-angle-right" aria-hidden="true"></i> Ínicio</a>
-              <a href="quem-somos"> <i class="fa fa-angle-right" aria-hidden="true"></i> Quem Somos</a>
-              <a href="nossa-visao"> <i class="fa fa-angle-right" aria-hidden="true"></i> Nossa Visão </a>
-              <a href="nossa-missao"> <i class="fa fa-angle-right" aria-hidden="true"></i> Nossa Missão</a>
-              <a class="active" href="metano-zero"> <i class="fa fa-angle-right" aria-hidden="true"></i> Programa Metano Zero</a>
-              <a href="#contato"> <i class="fa fa-angle-right" aria-hidden="true"></i> Contato</a>
+            <div class="row copyright mt-5">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; Instituto Nacional de Ecologia Sustentável - INES.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!-- Desenvolvido por MATDEV. -->
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
+    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- end info section -->
+    <!-- JS Includes -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-  <!-- footer section -->
-  <footer class="footer_section container-fluid">
-    <p>
-      Instituto Nacional de Ecologia Sustentável - INES
-    </p>
-  </footer>
-  <!-- footer section -->
-
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-
-  <script>
-    // Função para obter parâmetros da URL
-    function getParameterByName(name, url) {
-        if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, '\\$&');
-        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, ' '));
-    }
-
-    // Verificar o parâmetro na URL
-    var mostrarDivParam = getParameterByName('indice');
-
-    if (mostrarDivParam == 0) {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'none';
-        document.getElementById('indice-2').style.display = 'none';
-        document.getElementById('indice-3').style.display = 'none';
-        document.getElementById('indice-4').style.display = 'none';
-    } else if (mostrarDivParam == 1) {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'block';
-        document.getElementById('indice-2').style.display = 'none';
-        document.getElementById('indice-3').style.display = 'none';
-        document.getElementById('indice-4').style.display = 'none';
-    } else if (mostrarDivParam == 2) {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'none';
-        document.getElementById('indice-2').style.display = 'block';
-        document.getElementById('indice-3').style.display = 'none';
-        document.getElementById('indice-4').style.display = 'none';
-    } else if (mostrarDivParam == 3) {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'none';
-        document.getElementById('indice-2').style.display = 'none';
-        document.getElementById('indice-3').style.display = 'block';
-        document.getElementById('indice-4').style.display = 'none';
-    } else if (mostrarDivParam == 4) {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'none';
-        document.getElementById('indice-2').style.display = 'none';
-        document.getElementById('indice-3').style.display = 'none';
-        document.getElementById('indice-4').style.display = 'block';
-    } else if (mostrarDivParam == 'completo') {
-        document.getElementById('imagem').style.display = 'none';
-        document.getElementById('resumo').style.display = 'block';
-        document.getElementById('indice-0').style.display = 'block';
-        document.getElementById('indice-1').style.display = 'block';
-        document.getElementById('indice-2').style.display = 'block';
-        document.getElementById('indice-3').style.display = 'block';
-        document.getElementById('indice-4').style.display = 'block';
-    }
-</script>
-
+    <!-- JS Main -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

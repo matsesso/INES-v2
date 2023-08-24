@@ -1,4 +1,20 @@
+DirectoryIndex inicio.html
+
+Options -MultiViews
 RewriteEngine On
+
+# Redireciona URLs com extensão .html para URLs sem a extensão
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /([^/]+/)*[^.]+\.html(\?[^\ ]*)?\ HTTP/
+RewriteRule ^(([^/]+/)*[^.]+)\.html$ /$1 [R=301,L]
+
+# Verifica se o arquivo ou diretório não existe fisicamente
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^([^/]+)/?$ $1.html [L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+
+# Reescreve a URL internamente para adicionar .html
+RewriteRule ^(.*)$ $1.html [L]
+
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
